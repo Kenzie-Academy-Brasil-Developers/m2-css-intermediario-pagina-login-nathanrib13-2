@@ -6,9 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/globalStyles.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/styles/stylemodal.css">
     <title>Login</title>
 </head>
-<body>
-    <script src="/scripts/modal.js"></script>
-</body>
+    <body id="body">
+        <main id="container">
+            <div class="container-logo">
+                <img class = "logo-img" src="/assets/img/logo.png" alt="">
+            </div>
+            <div class="container-login">
+                <p class="login-text">LOGIN</p>
+                <form>
+                    <input type="text" placeholder="USUÁRIO">
+                    <input type="password" placeholder="SENHA">
+                    <button class="entrar">ENTRAR</button>
+                    <button class="forget-password">Esqueceu a senha?</button>
+                </form>
+                <footer>
+                    <p>Nao tem uma conta?</p> 
+                    <a class="cadastrar" href="http://google.com" target="_blank">Cadastre-se</a> 
+                </footer>
+            </div>
+        </main>
+        <script src="/scripts/modal.js"></script>
+    </body>
 </html>

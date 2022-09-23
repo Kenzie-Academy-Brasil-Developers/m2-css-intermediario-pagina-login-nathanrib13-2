@@ -1,0 +1,78 @@
+
+.container-modal {
+    background-color: var(--color-grey-2);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--color-blue);
+    width: 350px;
+    height: 300px;
+    border-radius: var(--border-radius-1);
+    padding: 20px;
+    position: absolute;
+    top: 33vh;
+    left: 39vw;
+}
+
+
+.container-modal div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 10px 0px;
+}
+
+.container-modal div p {
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-2);
+    color: var(--color-grey-2);
+    padding: 4px 25px;
+}
+
+.container-modal div button {
+    font-size: 10px;
+    background-color: var(--color-grey-1);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 100px ;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+.container-modal div button:hover{
+    background-color: var(--color-blue);
+    color: var(--color-grey-2);
+    cursor: pointer;
+}
+
+.container-modal form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-modal form input {
+    background-color: var(--color-grey-1);
+    border: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    height: 35px;
+    border-radius: var(--border-radius-1);
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+.enviar{ 
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-2);
+    margin: 20px 0px 10px 0px;
+    color: var(--color-grey-2);
+    border: none;
+    padding: 5px;
+    height: 35px;
+}
+
+.via-sac{
+    background-color: var(--color-blue);
+    border-radius: var(--border-radius-2);
+    color: var(--color-grey-1);
+    border: none;
+    padding: 5px;
+    height: 35px;
+}

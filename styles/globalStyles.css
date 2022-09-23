@@ -1,15 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+}
+
+body{
+    font-family: var(--font-family);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+    position: relative;
 }
 
 :root{
-    --color-primary: /* definir */;
-    --color-grey-1: #191C1F;
-    --color-grey-2: #212529;
-    --color-grey-3: #343A40;
-    --color-grey-4: #ADB5BD;
-    --color-grey-5: #CED4DA;
-    --color-grey-6: #EDF2FF;
+    --color-primary: #007c62;
+    --color-blue: #003e53;
+    --color-grey-1: #E1F2EF;
+    --color-grey-2: #f1f3f5;
+
+    --font-family: "Inter";
+
+    --border-radius-1: 8px;
+    --border-radius-2: 4px;
 }
+
+

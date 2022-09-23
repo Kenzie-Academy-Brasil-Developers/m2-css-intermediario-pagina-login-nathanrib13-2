@@ -1,1 +1,90 @@
-/* Desenvolva seu código aqui... */
+ main{
+    display: flex;
+    width: 714;
+    height: 407;
+}
+
+.logo-img{ 
+    width: 235px;
+    height: 235px;
+}   
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-blue);
+    width: 321px;
+    height: 407px;
+    border-radius: var(--border-radius-1) 0px 0px var(--border-radius-1);
+}
+
+.container-login{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: var(--color-grey-2);
+    width: 321px;
+    height: 407px;
+    padding: 60px 30px;
+    border-radius: 0px var(--border-radius-1) var(--border-radius-1) 0px ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.entrar{
+    background-color: var(--color-blue);
+    color: var(--color-grey-2);
+    border: none;
+    border-radius: var(--border-radius-1);
+    height: 35px;
+}
+
+.login-text{
+    background-color: var(--color-primary);
+    color: var(--color-grey-2);
+    padding: 6px 15px;
+    border-radius: var(--border-radius-2);
+    margin-bottom: 10px;
+}
+
+input {
+    background-color: var(--color-grey-1);
+    border-radius: var(--border-radius-1);
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    margin: 15px 0px;
+    height: 44px;
+    width: 250px;
+}
+input::placeholder{
+    color: rgba(0, 0, 0, 0.405);
+    padding: 12px;
+}
+
+.forget-password{
+    font-size: 10px;
+    align-self: center;
+    background-color: var(--color-primary);
+    border-radius: var(--border-radius-2);
+    color: var(--color-grey-1);
+    height: 24px;
+    width: 169px;
+    border: none;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+footer {
+    font-size: 12px;
+    display: flex;
+    align-self: center;
+}
+
+.cadastrar{
+    padding-left: 3px;
+    color: var(--color-primary);
+}
